@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
     padding: 0;
-    text-size-adjust:150%;
+    text-size-adjust:auto;
     background-color: beige;
     box-sizing: border-box;
 }
@@ -18,10 +18,11 @@ body h1:hover{
 }
 
 header{
-    background-color: #333;
+    
     color: white;
     padding: 1rem;
     text-align: center;
+    background-image: url("C:\Users\HP\Desktop\PortFolio\monsite.png");
 }
 nav ul{
     list-style-type:none;
@@ -74,6 +75,7 @@ form button{
     padding: 0.5rem;
     background-color: #333;
     color:white;
+    font-weight: 300;
     border: none;
     cursor: pointer;
 }
