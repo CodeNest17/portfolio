@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        <script src="script.js"></script>
         <header>
             <h1>LA SOLUTION NUMERIQUE</h1>
             <nav>
@@ -59,7 +60,7 @@
             <p>Nous offrons les services suivants:</p>
             <ul>
                 <li><strong>Création de sites vitrines</strong></li>
-                <dd>Le site vous permet de présenter votre entreprise et vos produits
+                <dd>Le site vitrine vous permet de présenter votre entreprise et vos produits
                     de façon professionnelle et attrayante.
                 </dd> <br>
                 <li><strong>Logiciel de gestion scolaire</strong></li>
@@ -74,14 +75,14 @@
                     l'installation des outils et les configurations necessaires,
                 nous vous aidons à assimiller les notions de bases, Nous vous aidons 
                 à créer votre site vitrine comme celle-ci [vous pourrez amméliorer son interface 
-                progressivement], nous vous inition à GitHub pour le stokage et le versionnage
+                progressivement], nous vous initions à GitHub pour le stokage et le versionnage
                 de vos projets puis nous vous offrons un coashing personalisé jusqu'à la maitrise.
             </dd><br>
 
             <li><strong>Initiation au langage Java</strong></li>
                 <dd>Nous vous assistons en présentiel ou en ligne pour 
                 l'installation des outils et les configurations necessaires,
-                nous vous aidons à assimiller les notions de bases, nous vous inition à GitHub pour le stokage et le versionnage
+                nous vous aidons à assimiller les notions de bases, nous vous initions à GitHub pour le stokage et le versionnage
                 de vos projets. Nous vous accompagons avec des exercices pratiques et des solutions jusqu'à
                 ce que vous soyez à l'aise avec le code.
             </dd>
@@ -91,18 +92,14 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Section de contact</p>
-        
-        <form action="send_email.php" method="post">
-            <label for="name">Nom: </label>
-                <input type="text" id="name" name="name" required> 
-
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required>
-
+            <p>Redigez votre message en précisant les services que vous souhaitez obtenir
+                ou la requète que vous voulez soumettre et n'oubliez pas de vous presenter. 
+                Si vous finissez de 
+                rediger le message, cliquez sur le bouton Envoyer juste en bas.
+            </p> 
+        <form id="whatsapp-form">
             <label for="message">Message: </label>
             <textarea id="message" name="message" required></textarea>
-
             <button type="submit">Envoyer</button>
         </form>
         </section>
